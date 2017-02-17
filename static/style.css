@@ -1,0 +1,27 @@
+body{
+	background: #f4f4f4;
+	color:#212121;
+	font-family: "Blogger Sans","Roboto",Sans-serif;
+}
+
+.restaurant{
+	display: block;
+	width: 80%; 
+	background: #fff;
+	box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+	padding: 20px;
+	margin: 10px;
+	vertical-align: center;
+}
+
+a,input[type="submit"]{
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px 30px;
+	background: rgba(0,0,0,0.05);
+	border-radius: 4px;
+	font-size: 13px;
+	font-weight: bold;
+	border: none;
+	box-shadow: none;
+}

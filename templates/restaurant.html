@@ -1,0 +1,12 @@
+{% include "header.html" %}
+	
+	{%for restaurant in restaurants:%}
+	<div class="restaurant" id="r-{{restaurant.id}}">
+		<p><strong>{{restaurant.name}}</strong></p>
+		<a href="{{url_for('ShowMenus',restaurant_id=restaurant.id)}}">Show Menu</a>
+		<a href="#">Edit</a>
+		<a href="#">Delete</a>
+	</div>
+	{%endfor%}
+
+{% include "footer.html" %}

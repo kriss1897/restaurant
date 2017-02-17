@@ -1,0 +1,7 @@
+{% include "header.html" %}
+	<form method="post" action="{{url_for('EditMenuItem',menu_id=menuItem.id,restaurant_id=restaurant.id)}}">
+		<p>New Name:<input type="text" name="name" value="{{menuItem.name}}"></p>
+		<input type="submit" value="Remane">
+		<a href="{{url_for('ShowMenus',restaurant_id=restaurant.id)}}">Cancel</a>
+	</form>
+{% include "footer.html" %}
